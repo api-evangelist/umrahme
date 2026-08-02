@@ -1,0 +1,31 @@
+# Umrahme
+
+> Umrahme is a consumer online travel platform from the Traveazy Group (an Accel portfolio company) focused on the Umrah pilgrimage — booking complete Umrah packages, hotels in Makkah and Madinah, Haramain high-speed train tickets, ground transfers, holiday add-ons, and travel eSIMs for pilgrims across the GCC, UK, US, Europe, and Egypt.
+
+Umrahme publishes no public developer program, API documentation, or client SDKs. A B2B portal for travel agents exists at b2b.umrahme.com behind a login at login.umrahme.com.
+
+## Company
+
+- [Website](https://www.umrahme.com/): Umrah packages, hotels, train, transfer, and eSIM booking
+- [About Us](https://www.umrahme.com/pages/en-us/about-us): Company background
+- [Contact / Support](https://www.umrahme.com/pages/en-us/contact-us): Customer care (care@umrahme.com)
+- [FAQ](https://www.umrahme.com/pages/en-us/faq): Frequently asked questions
+- [Blog](https://blog.umrahme.com/en/): Umrah travel guides and news
+
+## Products
+
+- [Umrah Packages](https://www.umrahme.com/umrah-packages/en-us): Complete Umrah package booking
+- [Umrah + Holidays](https://www.umrahme.com/umrah-holidays/en-us): Packages with holiday extensions
+- [Hotels](https://www.umrahme.com/hotel/en-us): Makkah and Madinah hotel booking
+- [Haramain Train](https://www.umrahme.com/train/en-us): High-speed rail tickets between Makkah, Madinah, and Jeddah
+- [Transfers](https://www.umrahme.com/transfer/en-us): Ground transportation
+- [eSIM](https://www.umrahme.com/esim/en-us): Travel eSIM for Saudi Arabia
+
+## Policies
+
+- [Terms and Conditions](https://www.umrahme.com/pages/en-us/terms-and-conditions)
+- [Privacy Policy](https://www.umrahme.com/pages/en-us/privacy-policy)
+
+## API Evangelist artifacts
+
+- [APIs.json profile](https://raw.githubusercontent.com/api-evangelist/umrahme/refs/heads/main/apis.yml): Machine-readable index of this profile

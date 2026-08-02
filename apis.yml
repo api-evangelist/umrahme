@@ -1,8 +1,25 @@
 aid: umrahme
-name: umrahme
-description: 'umrahme is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.'
+name: Umrahme
+description: Umrahme is a consumer online travel platform from the Traveazy Group focused
+  on the Umrah pilgrimage, letting pilgrims across the GCC, UK, US, Europe, and Egypt
+  book complete Umrah packages as well as individual hotels in Makkah and Madinah,
+  Haramain high-speed train tickets, ground transfers, holiday add-ons, and travel
+  eSIMs. The company is an Accel portfolio company and operates a companion B2B portal
+  for travel agents, mobile apps on iOS and Android, and a travel-guide blog, but
+  publishes no public developer or API program.
 url: https://raw.githubusercontent.com/api-evangelist/umrahme/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://media-distribution.traveazy.com/agency/646f0f3f836d2cdd8c8185ed/branding/og.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,13 +28,52 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Consumer
+- Travel
+- Umrah
+- Pilgrimage
+- Hotels
+- Trains
+- Transfers
+- Booking
 apis: []
+common:
+- type: DomainSecurity
+  url: security/umrahme-domain-security.yml
+- name: Well-Known Probe Index
+  type: WellKnown
+  url: well-known/umrahme-well-known.yml
+- name: llms.txt
+  type: LLMsTxt
+  url: llms/umrahme-llms.txt
+- name: Website
+  type: Website
+  url: https://www.umrahme.com/
+- name: Blog
+  type: Blog
+  url: https://blog.umrahme.com/en/
+- name: Support
+  type: Support
+  url: https://www.umrahme.com/pages/en-us/contact-us
+- name: Terms of Service
+  type: TermsOfService
+  url: https://www.umrahme.com/pages/en-us/terms-and-conditions
+- name: Privacy Policy
+  type: PrivacyPolicy
+  url: https://www.umrahme.com/pages/en-us/privacy-policy
+- name: Login
+  type: Login
+  url: https://login.umrahme.com/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1

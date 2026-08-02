@@ -1,0 +1,41 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.umrahme.com/.well-known/
+hosts:
+- host: https://www.umrahme.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /llms.txt
+    status: 404
+  - path: /robots.txt
+    status: 200
+- host: https://umrahme.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 301
+- host: https://login.umrahme.com
+  documents:
+  - path: /.well-known/openid-configuration
+    status: 403
+  - path: /.well-known/oauth-authorization-server
+    status: 403
+  - path: /.well-known/security.txt
+    status: 403
+- host: https://b2b.umrahme.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 403
+notes: No well-known discovery documents are published on any Umrahme host. All
+  probed paths on www.umrahme.com return the site's custom 404 page; the apex
+  redirects (301) to www; the login.umrahme.com auth host and b2b.umrahme.com
+  travel-agent portal return 403 Forbidden for well-known paths. robots.txt on
+  www is present and points at sitemap indexes only.
