@@ -1,0 +1,31 @@
+# Front Door AI Index — umrahme — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: umrahme
+  lexicon_version: '1.0'
+  probed_at: '2026-09-25'
+  host: www.umrahme.com
+  final_host: www.umrahme.com
+  ownership: own
+  owner: umrahme
+  shares_host_with: null
+  inherited_from: null
+  alias_of: null
+  verdict: scored
+  score: 3
+  band: 3
+  band_label: light
+  host_score: 3
+  density: 1.06
+  words: 2829
+  tiers:
+    agentic: 1
+    core: 2
+    model: 0
+  ambiguous: 1
+  top_terms:
+    AI: 1
+    ML: 1
+    prompts: 1
+    smart: 1
